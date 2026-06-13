@@ -17,7 +17,7 @@ html {
 }
 
 body {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Plus Jakarta Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: var(--navy);
   line-height: 1.6;
   background: #fff;
@@ -85,7 +85,9 @@ nav a.active {
 }
 
 .hero h1 {
-  font-size: 2.25rem;
+  font-size: 2.5rem;
+  font-weight: 800;
+  letter-spacing: -0.5px;
   margin-bottom: 0.75rem;
 }
 
@@ -126,6 +128,8 @@ section {
 
 section h2 {
   font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -0.3px;
   margin-bottom: 1.5rem;
   text-align: center;
 }
@@ -145,7 +149,8 @@ section h2 {
 
 .service-card h3 {
   color: #000;
-  font-weight: 600;
+  font-weight: 700;
+  letter-spacing: -0.2px;
 }
 
 /* Contact */
