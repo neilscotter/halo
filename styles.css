@@ -91,7 +91,7 @@ nav a.active {
 
 .hero p {
   font-size: 1rem;
-  color: var(--gray);
+  color: #fff;
   max-width: 600px;
   margin: 0 auto 1.5rem;
 }
@@ -130,14 +130,12 @@ section h2 {
   text-align: center;
 }
 
-.services {
-  padding-top: 1rem;
-}
-
 .services-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 2rem;
+  margin-top: 2.5rem;
 }
 
 .service-card {
@@ -146,13 +144,8 @@ section h2 {
 }
 
 .service-card h3 {
-  margin-bottom: 0.5rem;
-  color: var(--navy);
+  color: #fff;
   font-weight: 600;
-}
-
-.service-card p {
-  color: var(--gray);
 }
 
 /* Contact */
