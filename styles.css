@@ -71,7 +71,7 @@ nav a.active {
 .hero {
   background: #fff;
   color: var(--navy);
-  padding: 5rem 5%;
+  padding: 5rem 5% 1rem;
   text-align: center;
 }
 
@@ -121,11 +121,14 @@ section h2 {
   text-align: center;
 }
 
+.services {
+  padding-top: 1rem;
+}
+
 .services-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 2rem;
-  margin-top: 2.5rem;
 }
 
 .service-card {
