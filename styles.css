@@ -71,7 +71,9 @@ nav a.active {
 .hero {
   background-color: #fff;
   background-image: url('assets/hero-bg.svg');
-  background-size: 80px 80px;
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat;
   color: var(--navy);
   padding: 5rem 5% 1rem;
   text-align: center;
