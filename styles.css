@@ -1,9 +1,9 @@
 :root {
   --navy: #1b2733;
-  --sage: #7e9bad;
-  --gold: #d4b483;
+  --sage: #5a7c92;
+  --gold: #1f3a52;
   --light: #f5f6f7;
-  --gray: #6b7280;
+  --gray: #2f4a60;
 }
 
 * {
@@ -43,7 +43,7 @@ header {
   font-size: 1.4rem;
   font-weight: 700;
   letter-spacing: 4px;
-  color: var(--gold);
+  color: #fff;
   text-transform: uppercase;
 }
 
@@ -57,7 +57,7 @@ nav a {
   text-decoration: none;
   font-weight: 500;
   letter-spacing: 1px;
-  color: var(--gold);
+  color: #fff;
   opacity: 0.8;
   transition: opacity 0.2s;
 }
@@ -72,10 +72,15 @@ nav a.active {
   background-color: #fff;
   background-image: url('assets/hero-bg.jpg');
   background-size: cover;
-  background-position: bottom center;
+  background-position: center;
   background-repeat: no-repeat;
   color: var(--navy);
-  padding: 5rem 5% 1rem;
+  padding: 5rem 5%;
+  min-height: calc(100vh - 4.75rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
 }
 
@@ -100,7 +105,7 @@ nav a.active {
 .btn {
   display: inline-block;
   background: var(--gold);
-  color: var(--navy);
+  color: #fff;
   padding: 0.85rem 2rem;
   border-radius: 4px;
   text-decoration: none;
