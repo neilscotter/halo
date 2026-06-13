@@ -12,6 +12,10 @@
   padding: 0;
 }
 
+html {
+  font-size: 15px;
+}
+
 body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: var(--navy);
@@ -65,22 +69,22 @@ nav a.active {
 
 /* Hero */
 .hero {
-  background: var(--sage);
-  color: #fff;
-  padding: 6rem 5%;
+  background: #fff;
+  color: var(--navy);
+  padding: 5rem 5%;
   text-align: center;
 }
 
 .hero h1 {
-  font-size: 3rem;
-  margin-bottom: 1rem;
+  font-size: 2.25rem;
+  margin-bottom: 0.75rem;
 }
 
 .hero p {
-  font-size: 1.2rem;
-  color: #d6dbe1;
+  font-size: 1rem;
+  color: var(--gray);
   max-width: 600px;
-  margin: 0 auto 2rem;
+  margin: 0 auto 1.5rem;
 }
 
 .hero-logo {
@@ -112,7 +116,7 @@ section {
 }
 
 section h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-bottom: 1.5rem;
   text-align: center;
 }
